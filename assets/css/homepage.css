@@ -1,0 +1,32 @@
+/* Presentation only: all personal content lives in the existing About page. */
+.page__content {
+  line-height: 1.7;
+}
+
+.page__content h2 {
+  margin-top: 2rem;
+  scroll-margin-top: 5rem;
+}
+
+.page__content > ol > li {
+  margin-bottom: 1.5rem;
+}
+
+.page__content > ol > li > p {
+  margin-bottom: 0.5rem;
+}
+
+.page__content a,
+.page__content code {
+  overflow-wrap: anywhere;
+}
+
+.author__content {
+  padding-left: 0;
+}
+
+@media (min-width: 1024px) {
+  .page {
+    padding-right: 2rem;
+  }
+}
