@@ -12,7 +12,10 @@ Junteng Liu's single-page academic homepage, forked from [Academic Pages](https:
 
 ## Build and verify
 
+Use Ruby 3.3, Node.js, and Python 3:
+
 ```sh
+npx --yes uglify-js@3.19.3 assets/js/plugins/jquery.greedy-navigation.js assets/js/_main.js assets/js/theme.js -c -m -o assets/js/main.min.js
 bundle install
 bundle exec jekyll build
 python3 scripts/verify_homepage.py
